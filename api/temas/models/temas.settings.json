@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temas",
+  "info": {
+    "name": "temas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "cor_primaria": {
+      "type": "string",
+      "required": true
+    },
+    "cor_secundaria": {
+      "type": "string",
+      "required": true
+    },
+    "nome": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

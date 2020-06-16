@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ao3_botaos",
+  "info": {
+    "name": "botao",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "valor": {
+      "type": "string",
+      "required": true
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "strapi-teste",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -12,7 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "strapi": "3.0.1",
-    "strapi-admin": "3.0.1",
+    "strapi-admin": "3.0.0",
     "strapi-utils": "3.0.1",
     "strapi-plugin-content-type-builder": "3.0.1",
     "strapi-plugin-content-manager": "3.0.1",

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_padraoa_blocos",
+  "info": {
+    "name": "persona",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "subtitulo": {
+      "type": "string",
+      "required": true
+    },
+    "fontSize": {
+      "type": "string"
+    },
+    "textAlign": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ]
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ao3.botao",
+      "required": true
+    }
+  }
+}

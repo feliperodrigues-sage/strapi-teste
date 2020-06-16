@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paginas",
+  "info": {
+    "name": "paginas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "private": false,
+      "required": true,
+      "unique": false
+    },
+    "tema": {
+      "model": "temas"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "template": {
+      "type": "dynamiczone",
+      "components": [
+        "ao3.wrapper-persona",
+        "ao3.botao"
+      ]
+    }
+  }
+}
