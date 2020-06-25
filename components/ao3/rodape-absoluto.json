@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ao3_rodape_absolutos",
+  "info": {
+    "name": "rodapeAbsoluto",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "componenteNome": {
+      "type": "string"
+    }
+  }
+}

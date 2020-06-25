@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_ao3_container",
+  "info": {
+    "name": "container",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "cor_container_primaria",
+        "cor_container_secundaria",
+        "cor_container_terciaria"
+      ]
+    },
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "titulo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.titulo"
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ao3.botao"
+    },
+    "inverter": {
+      "type": "boolean"
+    }
+  }
+}

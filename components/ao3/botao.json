@@ -17,6 +17,27 @@
     "link": {
       "type": "string",
       "required": true
+    },
+    "cor": {
+      "type": "enumeration",
+      "enum": [
+        "cor_primaria",
+        "cor_secundaria"
+      ]
+    },
+    "icone": {
+      "type": "boolean"
+    },
+    "eventoNome": {
+      "type": "string"
+    },
+    "alinhamento": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
     }
   }
 }

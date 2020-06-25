@@ -17,10 +17,28 @@
       "type": "string",
       "required": true
     },
-    "nome": {
+    "temaNome": {
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "cor_texto_primaria": {
+      "type": "string"
+    },
+    "cor_texto_secundaria": {
+      "type": "string"
+    },
+    "cor_container_primaria": {
+      "type": "string"
+    },
+    "cor_container_secundaria": {
+      "type": "string"
+    },
+    "cor_container_terciaria": {
+      "type": "string"
+    },
+    "cor_texto_terciaria": {
+      "type": "string"
     }
   }
 }

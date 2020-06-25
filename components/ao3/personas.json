@@ -1,13 +1,16 @@
 {
-  "collectionName": "components_ao3_wrapper_personas",
+  "collectionName": "components_ao3_personas",
   "info": {
-    "name": "wrapperPersona",
+    "name": "personas",
     "icon": "vote-yea"
   },
   "options": {},
   "attributes": {
     "efeito": {
       "type": "boolean"
+    },
+    "componenteNome": {
+      "type": "string"
     },
     "persona": {
       "type": "component",

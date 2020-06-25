@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "nome": {
+    "paginaNome": {
       "type": "string",
       "private": false,
       "required": true,
@@ -26,9 +26,17 @@
     "template": {
       "type": "dynamiczone",
       "components": [
-        "ao3.wrapper-persona",
-        "ao3.botao"
+        "ao3.logo",
+        "ao3.rodape-absoluto",
+        "ao3.personas",
+        "ao3.containers"
       ]
+    },
+    "paginaTitulo": {
+      "type": "string"
+    },
+    "paginaDescricao": {
+      "type": "string"
     }
   }
 }

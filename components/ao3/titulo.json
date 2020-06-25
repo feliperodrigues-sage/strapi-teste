@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_ao3_titulos",
+  "info": {
+    "name": "titulo",
+    "icon": "compress"
+  },
+  "options": {},
+  "attributes": {
+    "valor": {
+      "type": "string"
+    },
+    "cor": {
+      "type": "enumeration",
+      "enum": [
+        "cor_texto_primaria",
+        "cor_texto_secundaria",
+        "cor_texto_terciaria"
+      ]
+    },
+    "fontSize": {
+      "type": "string"
+    },
+    "alinhamento": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ]
+    },
+    "margem": {
+      "type": "string"
+    },
+    "lineHeight": {
+      "type": "string"
+    },
+    "opacity": {
+      "type": "string"
+    }
+  }
+}

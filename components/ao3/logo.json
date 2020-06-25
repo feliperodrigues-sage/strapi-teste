@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_ao3_logos",
+  "info": {
+    "name": "Logo",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "LogoImagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    },
+    "componenteNome": {
+      "type": "string"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_padraoa_blocos",
+  "collectionName": "components_ao3_persona",
   "info": {
     "name": "persona",
     "icon": "user"
@@ -9,32 +9,15 @@
     "backgroundImage": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
+      "allowedTypes": ["files", "images", "videos"],
       "plugin": "upload",
       "required": true
     },
     "titulo": {
-      "type": "string",
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.titulo",
       "required": true
-    },
-    "subtitulo": {
-      "type": "string",
-      "required": true
-    },
-    "fontSize": {
-      "type": "string"
-    },
-    "textAlign": {
-      "type": "enumeration",
-      "enum": [
-        "left",
-        "right",
-        "center"
-      ]
     },
     "botao": {
       "type": "component",
