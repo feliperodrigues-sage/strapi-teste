@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rodapes",
+      "handler": "rodape.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rodapes/count",
+      "handler": "rodape.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rodapes/:id",
+      "handler": "rodape.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rodapes",
+      "handler": "rodape.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rodapes/:id",
+      "handler": "rodape.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rodapes/:id",
+      "handler": "rodape.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

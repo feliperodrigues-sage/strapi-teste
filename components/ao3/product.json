@@ -1,23 +1,29 @@
 {
-  "collectionName": "components_ao3_container",
+  "collectionName": "components_ao3_products",
   "info": {
-    "name": "container",
-    "icon": "apple-alt"
+    "name": "Product",
+    "icon": "brush"
   },
   "options": {},
   "attributes": {
-    "background": {
-      "type": "enumeration",
-      "enum": [
-        "cor_primaria",
-        "cor_secundaria",
-        "cor_terciaria",
-        "cor_quartenaria",
-        "cor_quinaria",
-        "cor_senaria"
-      ]
+    "tituloSobreposto": {
+      "type": "string"
     },
-    "imagem": {
+    "tituloAncora": {
+      "type": "string"
+    },
+    "imagemAncora": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "imagemProduto": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -37,9 +43,6 @@
       "type": "component",
       "repeatable": false,
       "component": "ao3.botao"
-    },
-    "inverter": {
-      "type": "boolean"
     }
   }
 }

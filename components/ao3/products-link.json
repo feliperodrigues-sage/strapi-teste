@@ -1,15 +1,15 @@
 {
-  "collectionName": "components_ao3_rodape_absolutos",
+  "collectionName": "components_ao3_products_links",
   "info": {
-    "name": "FooterCopyRight",
-    "icon": "archway"
+    "name": "ProductsLink",
+    "icon": "chess-queen"
   },
   "options": {},
   "attributes": {
-    "copyRight": {
+    "textoBotao": {
       "type": "string"
     },
-    "cor": {
+    "backgroundBotao": {
       "type": "enumeration",
       "enum": [
         "cor_primaria",
@@ -20,8 +20,10 @@
         "cor_senaria"
       ]
     },
-    "opacity": {
-      "type": "string"
+    "productLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.product-link"
     }
   }
 }

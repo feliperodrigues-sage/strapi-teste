@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ao3_newsletters",
+  "info": {
+    "name": "newsletters",
+    "icon": "backward"
+  },
+  "options": {},
+  "attributes": {
+    "componenteNome": {
+      "type": "string"
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.newslatter"
+    }
+  }
+}

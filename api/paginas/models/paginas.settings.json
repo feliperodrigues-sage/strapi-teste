@@ -27,9 +27,13 @@
       "type": "dynamiczone",
       "components": [
         "ao3.logo",
-        "ao3.rodape-absoluto",
         "ao3.personas",
-        "ao3.containers"
+        "ao3.containers",
+        "ao3.header",
+        "ao3.newsletters",
+        "ao3.banners",
+        "ao3.products-views",
+        "ao3.banners-views"
       ]
     },
     "paginaTitulo": {
@@ -37,6 +41,12 @@
     },
     "paginaDescricao": {
       "type": "string"
+    },
+    "header": {
+      "model": "headers"
+    },
+    "rodape": {
+      "model": "rodape"
     }
   }
 }

@@ -1,23 +1,12 @@
 {
-  "collectionName": "components_ao3_container",
+  "collectionName": "components_ao3_banner",
   "info": {
-    "name": "container",
-    "icon": "apple-alt"
+    "name": "banner",
+    "icon": "caret-square-down"
   },
   "options": {},
   "attributes": {
     "background": {
-      "type": "enumeration",
-      "enum": [
-        "cor_primaria",
-        "cor_secundaria",
-        "cor_terciaria",
-        "cor_quartenaria",
-        "cor_quinaria",
-        "cor_senaria"
-      ]
-    },
-    "imagem": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -37,9 +26,6 @@
       "type": "component",
       "repeatable": false,
       "component": "ao3.botao"
-    },
-    "inverter": {
-      "type": "boolean"
     }
   }
 }

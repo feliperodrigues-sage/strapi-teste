@@ -1,14 +1,11 @@
 {
-  "collectionName": "components_ao3_rodape_absolutos",
+  "collectionName": "components_ao3_navs",
   "info": {
-    "name": "FooterCopyRight",
-    "icon": "archway"
+    "name": "nav",
+    "icon": "arrows-alt-v"
   },
   "options": {},
   "attributes": {
-    "copyRight": {
-      "type": "string"
-    },
     "cor": {
       "type": "enumeration",
       "enum": [
@@ -20,8 +17,10 @@
         "cor_senaria"
       ]
     },
-    "opacity": {
-      "type": "string"
+    "navLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.nav-link"
     }
   }
 }

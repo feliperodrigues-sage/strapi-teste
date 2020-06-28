@@ -12,9 +12,12 @@
     "cor": {
       "type": "enumeration",
       "enum": [
-        "cor_texto_primaria",
-        "cor_texto_secundaria",
-        "cor_texto_terciaria"
+        "cor_primaria",
+        "cor_secundaria",
+        "cor_terciaria",
+        "cor_quartenaria",
+        "cor_quinaria",
+        "cor_senaria"
       ]
     },
     "fontSize": {

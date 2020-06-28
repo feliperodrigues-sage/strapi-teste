@@ -22,7 +22,11 @@
       "type": "enumeration",
       "enum": [
         "cor_primaria",
-        "cor_secundaria"
+        "cor_secundaria",
+        "cor_terciaria",
+        "cor_quartenaria",
+        "cor_quinaria",
+        "cor_senaria"
       ]
     },
     "icone": {

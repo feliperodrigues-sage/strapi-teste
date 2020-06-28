@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ao3_nav_links",
+  "info": {
+    "name": "navLink",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_ao3_banner_views",
+  "info": {
+    "name": "BannerView",
+    "icon": "desktop"
+  },
+  "options": {},
+  "attributes": {
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    },
+    "produtoLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    },
+    "titulo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.titulo"
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.botao"
+    }
+  }
+}

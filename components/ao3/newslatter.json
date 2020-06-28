@@ -1,15 +1,12 @@
 {
-  "collectionName": "components_ao3_rodape_absolutos",
+  "collectionName": "components_ao3_newslatter",
   "info": {
-    "name": "FooterCopyRight",
-    "icon": "archway"
+    "name": "newsletter",
+    "icon": "folder"
   },
   "options": {},
   "attributes": {
-    "copyRight": {
-      "type": "string"
-    },
-    "cor": {
+    "background": {
       "type": "enumeration",
       "enum": [
         "cor_primaria",
@@ -20,8 +17,10 @@
         "cor_senaria"
       ]
     },
-    "opacity": {
-      "type": "string"
+    "titulo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.titulo"
     }
   }
 }

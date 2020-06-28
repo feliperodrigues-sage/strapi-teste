@@ -22,22 +22,16 @@
       "required": true,
       "unique": true
     },
-    "cor_texto_primaria": {
+    "cor_terciaria": {
       "type": "string"
     },
-    "cor_texto_secundaria": {
+    "cor_quartenaria": {
       "type": "string"
     },
-    "cor_container_primaria": {
+    "cor_quinaria": {
       "type": "string"
     },
-    "cor_container_secundaria": {
-      "type": "string"
-    },
-    "cor_container_terciaria": {
-      "type": "string"
-    },
-    "cor_texto_terciaria": {
+    "cor_senaria": {
       "type": "string"
     }
   }

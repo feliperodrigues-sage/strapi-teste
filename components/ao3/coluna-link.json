@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_ao3_coluna_links",
+  "info": {
+    "name": "colunaLink",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "colunaTitulo": {
+      "type": "string"
+    },
+    "linkCor": {
+      "type": "enumeration",
+      "enum": [
+        "cor_primaria",
+        "cor_secundaria",
+        "cor_terciaria",
+        "cor_quartenaria",
+        "cor_quinaria",
+        "cor_senaria"
+      ]
+    },
+    "tituloCor": {
+      "type": "enumeration",
+      "enum": [
+        "cor_primaria",
+        "cor_secundaria",
+        "cor_terciaria",
+        "cor_quartenaria",
+        "cor_quinaria",
+        "cor_senaria"
+      ]
+    },
+    "LinhaCor": {
+      "type": "enumeration",
+      "enum": [
+        "cor_primaria",
+        "cor_secundaria",
+        "cor_terciaria",
+        "cor_quartenaria",
+        "cor_quinaria",
+        "cor_senaria"
+      ]
+    },
+    "textoObservacao": {
+      "type": "string"
+    },
+    "navLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.nav-link"
+    }
+  }
+}

@@ -13,6 +13,16 @@
       "type": "component",
       "repeatable": false,
       "component": "ao3.logo"
+    },
+    "nav": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ao3.nav"
+    },
+    "productsLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ao3.products-link"
     }
   }
 }

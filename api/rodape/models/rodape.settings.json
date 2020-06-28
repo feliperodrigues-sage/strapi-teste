@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rodapes",
+  "info": {
+    "name": "Rodape"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "rodape": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.footer"
+    }
+  }
+}

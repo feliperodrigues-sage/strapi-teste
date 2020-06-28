@@ -1,13 +1,24 @@
 {
-  "collectionName": "components_ao3_rodape_absolutos",
+  "collectionName": "components_ao3_product_links",
   "info": {
-    "name": "FooterCopyRight",
-    "icon": "archway"
+    "name": "productLink",
+    "icon": "chevron-up"
   },
   "options": {},
   "attributes": {
-    "copyRight": {
+    "link": {
       "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     },
     "cor": {
       "type": "enumeration",
@@ -20,7 +31,7 @@
         "cor_senaria"
       ]
     },
-    "opacity": {
+    "nome": {
       "type": "string"
     }
   }
