@@ -39,6 +39,9 @@
     },
     "opacity": {
       "type": "string"
+    },
+    "negrito": {
+      "type": "boolean"
     }
   }
 }

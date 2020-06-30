@@ -33,7 +33,8 @@
         "ao3.newsletters",
         "ao3.banners",
         "ao3.products-views",
-        "ao3.banners-views"
+        "ao3.banners-views",
+        "ao3.container-app-link"
       ]
     },
     "paginaTitulo": {

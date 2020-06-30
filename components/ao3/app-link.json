@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_ao3_app_links",
+  "info": {
+    "name": "appLink",
+    "icon": "cheese"
+  },
+  "options": {},
+  "attributes": {
+    "appleStoreLink": {
+      "type": "string"
+    },
+    "googlePlayLink": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ao3.titulo"
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "cor_primaria",
+        "cor_secundaria",
+        "cor_terciaria",
+        "cor_quartenaria",
+        "cor_quinaria",
+        "cor_senaria"
+      ]
+    }
+  }
+}

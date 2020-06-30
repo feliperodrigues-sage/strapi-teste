@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ao3_container_app_links",
+  "info": {
+    "name": "containerAppLink",
+    "icon": "battery-full"
+  },
+  "options": {},
+  "attributes": {
+    "componenteNome": {
+      "type": "string"
+    },
+    "appLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ao3.app-link"
+    }
+  }
+}
